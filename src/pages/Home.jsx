@@ -3,7 +3,6 @@ import TypewriterText from "../components/TypewriterText";
 import { UserData } from "../data/UserData";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
@@ -15,7 +14,6 @@ function Home() {
   const socialMediaIcons = {
     AiFillGithub: AiFillGithub,
     FaLinkedinIn: FaLinkedinIn,
-    AiOutlineTwitter: AiOutlineTwitter,
     AiFillInstagram: AiFillInstagram,
   };
 

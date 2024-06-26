@@ -1,8 +1,8 @@
 export const UserData = {
   name: "Asaf Zafrir",
-  about : "I'm a front end developer that learned everything on my own. I specialize in creating dynamic, accessible websites that work on any device. Furthermore, I regularly create creative solutions that improve user experiences. I am proficient in React.js, Redux, JavaScript, HTML5, and CSS. I guarantee efficient code management and communication thanks to my knowledge with Git version control. Likewise, I'm also skilled at developing apps using mini program studio frameworks and exceeding client expectations with my high-caliber solutions.",
-  resumeUrl : "https://drive.google.com/file/d/1LSVLVmJA_3fhWtZPc_d_pHnkXhL4s-Oc/view", // change
-  FooterLink : "https://www.linkedin.com/in/asaf-zafrir/",
+  about : "Software Engineer student who aspires to widen his horizons. A quick learner and a strong team player with interpersonal skills. Motivated with a strong result-focused approached, a positive attitude, and dedication for excellence.",
+  resumeUrl : "https://drive.google.com/file/d/1YqToDwj-O5Nl6xkKMiOpn1MzJoNcubaz/view?usp=sharing",
+  FooterLink : "https://api.whatsapp.com/send/?phone=972549734879&text=Hi%20Asaf,%20How%20are%20you?",
   socialMedia: [
     {
       socialMediaName: "github",
@@ -14,11 +14,6 @@ export const UserData = {
       url: "https://www.linkedin.com/in/asaf-zafrir/",
       icon: "FaLinkedinIn",
     },
-    {
-      socialMediaName: "twitter",
-      url: "https://twitter.com/rahulvijay8156",
-      icon: "AiOutlineTwitter",
-    }, // to change
     {
       socialMediaName: "instagram",
       url: "https://www.instagram.com/asaf_z",
