@@ -1,4 +1,3 @@
-import React from "react";
 import TypewriterText from "../components/TypewriterText";
 import { UserData } from "../data/UserData";
 import {

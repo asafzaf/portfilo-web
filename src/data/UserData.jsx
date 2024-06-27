@@ -33,4 +33,5 @@ export const UserData = {
     loop: true,
     deleteSpeed: 30,
   },
+  contactText: "I'd love to connect and explore exciting opportunities with you! Whether you have interesting projects, creative ideas, or just want to chat, please don't hesitate to reach out. My inbox is open 24/7!"
 };
