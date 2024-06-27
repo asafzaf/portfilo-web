@@ -1,5 +1,8 @@
 import { useState } from "react";
 import { UserData } from "../data/UserData";
+import { invokes } from "../data/Invokes";
+import axios from 'axios';
+
 
 function Contact() {
   const { FooterLink } = UserData;
@@ -7,7 +10,19 @@ function Contact() {
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
 
-  
+  const handleClick = async () => {
+    try {
+      const response = await axios.post(invokes.sendMail, {
+        name: name,
+        email: email,
+        message: message,
+      })
+      console.log(response);
+    } catch (error) {
+      console.error(error);
+    }
+  }
+
     return (
     <div className="mb-40 flex w-full items-center justify-center md:h-screen lg:mb-4">
       <div className="flex flex-col items-center justify-center ">
@@ -36,7 +51,7 @@ function Contact() {
           <input placeholder="Your Name" value={message} onChange={e => setMessage(e.target.value)}
             className="h-[50px] w-[200px] border-2 border-black bg-transparent hover:bg-gray-900 hover:bg-opacity-40"
           />
-          <button>Send Email!
+          <button onClick={handleClick}>Send Email!
           </button>
         </div>
       </div>
