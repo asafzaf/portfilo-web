@@ -8,7 +8,6 @@ export const skillsData = [
   "Git",
   "MaterialUI",
   "Bootstrap",
-  "Tailwind",
   "Figma",
   "Firebase",
   "Photoshop",
